@@ -1,0 +1,25 @@
+
+
+//faça um programa que calcule e mostre o volume de uma esfera
+//formula:v:4/3*pi*raio^3
+//pi=3.14159
+
+#include<stdio.h>
+int main(){
+int esfera,raio;
+double pi = 3.14159, volume;
+printf("Digite o valor do raio:");
+scanf("%d",&raio);
+volume = (4.0/3)*pi*raio*raio*raio;
+printf("O valor do volume desta esfera e:%lf",volume);
+return 0;
+}
+
+// escreva = printf
+//leia = scanf
+//antes de numero inteiro = coloque %d
+//antes de numero real = coloque %lf
+//ponto e virgula ao final de toda linha = ;
+// inteiro = int
+// real = double
+// & = identifica ao ler
